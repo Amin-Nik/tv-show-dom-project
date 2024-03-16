@@ -1,0 +1,81 @@
+.form-control::placeholder {
+    color: #777;
+}
+
+a {
+    color: #d05606 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 160px;
+    height: 70px;
+}
+
+.dropdownMovie {
+    display: none;
+}
+
+.headerMaxWith {
+    max-width: 600px;
+}
+
+.fontsizesmall {
+    font-size: small;
+}
+
+.movie {
+    background-color: hsl(210, 11%, 18%);
+}
+
+.movie img {
+    transition: all 0.5s;
+}
+
+.movie:hover img {
+    transform: scale(0.9);
+}
+
+.hoverShow:hover .summary {
+    display: block !important;
+    cursor: pointer;
+    box-shadow: #d05606 0px 0px 5px;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+p {
+    margin: 0 !important;
+}
+
+.dropdownUl {
+    max-height: 300px;
+    cursor: pointer;
+}
+
+.borderOrange {
+    box-shadow: #d05606 0px 0px 5px;
+}
+
+.dropdownLi:hover {
+    background-color: #d05606;
+}
+
+@media (max-width: 768px) {
+    .justifyContentCenterSmall {
+        justify-content: center !important;
+    }
+
+    .logo {
+        width: 140px;
+        height: 60px;
+    }
+
+    .headerMaxWith {
+        max-width: 350px;
+    }
+}
